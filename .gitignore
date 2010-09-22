@@ -1,0 +1,8 @@
+_ReSharper.*/
+*resharper.user
+[Bb]in/
+[Oo]bj/
+*.sln.cache
+*.suo
+*.user
+StyleCop.Cache
