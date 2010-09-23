@@ -42,8 +42,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="ShouldBooleanExtensionsTests.cs" />
+    <Compile Include="ShouldDictionaryExtensionsTests.cs" />
+    <Compile Include="ShouldEnumerableExtensionsTests.cs" />
+    <Compile Include="ShouldObjectExtensionsTests.cs" />
+    <Compile Include="ShouldStringExtensionsTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ShouldTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\MbShould\MbShould.csproj">

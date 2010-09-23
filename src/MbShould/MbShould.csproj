@@ -41,7 +41,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="Should.cs" />
+    <Compile Include="ShouldBooleanExtensions.cs" />
+    <Compile Include="ShouldDictionaryExtensions.cs" />
+    <Compile Include="ShouldEnumerableExtensions.cs" />
+    <Compile Include="ShouldObjectExtensions.cs" />
+    <Compile Include="ShouldStringExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
